@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { SocketContext } from "../SocketContext";
-
+import "./css/VideoPlayer.css";
 function VideoPlayer() {
   const context = useContext(SocketContext);
   return (
@@ -8,7 +8,7 @@ function VideoPlayer() {
       <div className="video-container">
         {context.stream && (
           <div className="video-card">
-            <h3 className="name">{context.name || 'Name'}</h3>
+            <h3 className="name">{context.name || "Host"}</h3>
             <video playsInline ref={context.videoSrc} autoPlay />
           </div>
         )}

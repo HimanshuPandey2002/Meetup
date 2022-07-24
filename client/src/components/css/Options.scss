@@ -1,0 +1,48 @@
+.Options {
+  width: 100%;
+  padding: 2rem;
+  height: fit-content;
+  background-color: rgb(45, 45, 45);
+
+  button {
+    cursor: pointer;
+    padding: 0.7rem;
+  }
+
+  #call {
+    background-color: rgb(91, 175, 91);
+  }
+
+  #end-call {
+    background-color: tomato;
+  }
+
+  .form {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .details {
+      display: flex;
+      align-items: center;
+    }
+    input,
+    button {
+      border-radius: 5px;
+      border: none;
+      padding: 0.8rem 1rem;
+      background-color: rgb(35, 35, 35);
+      color: white;
+      font-size: 18px;
+    }
+
+    .id-sec {
+      display: flex;
+      align-items: center;
+
+      .id {
+        margin-right: 0.8rem;
+      }
+    }
+  }
+}

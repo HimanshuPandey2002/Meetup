@@ -6,7 +6,7 @@ import Options from "./components/Options";
 function App() {
   return (
     <div className="App">
-      hello
+      <header>Meetup</header>
       <VideoPlayer />
       <Options>
         <Notifications />

@@ -1,14 +1,15 @@
 import React, { useContext } from "react";
 import { SocketContext } from "../SocketContext";
+import "./css/Notifications.css";
 
 function Notifications() {
   const { answerCall, call, callAccepted } = useContext(SocketContext);
 
   return (
-    <div>
+    <div className="notifications">
       {call.isRecievedCall && !callAccepted && (
         <div>
-          <h1>{call.name} is calling</h1>
+          <p className="answer">{call.name} is calling</p>
           <button onClick={answerCall}>Answer</button>
         </div>
       )}

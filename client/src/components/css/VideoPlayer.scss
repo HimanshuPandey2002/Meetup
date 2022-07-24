@@ -1,0 +1,23 @@
+.video-container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  .video-card {
+    .name {
+      margin: 1rem 2rem;
+    }
+
+    video {
+      border-radius: 20px;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+      //   border: 1px solid rgb(6, 6, 6);
+      width: 700px;
+      max-width: 750px;
+      min-width: 300px;
+      height: fit-content;
+    }
+  }
+}

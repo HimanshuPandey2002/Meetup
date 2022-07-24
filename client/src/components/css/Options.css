@@ -1,0 +1,43 @@
+.Options {
+  width: 100%;
+  padding: 2rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: rgb(45, 45, 45);
+}
+.Options button {
+  cursor: pointer;
+  padding: 0.7rem;
+}
+.Options #call {
+  background-color: rgb(91, 175, 91);
+}
+.Options #end-call {
+  background-color: tomato;
+}
+.Options .form {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.Options .form .details {
+  display: flex;
+  align-items: center;
+}
+.Options .form input,
+.Options .form button {
+  border-radius: 5px;
+  border: none;
+  padding: 0.8rem 1rem;
+  background-color: rgb(35, 35, 35);
+  color: white;
+  font-size: 18px;
+}
+.Options .form .id-sec {
+  display: flex;
+  align-items: center;
+}
+.Options .form .id-sec .id {
+  margin-right: 0.8rem;
+}/*# sourceMappingURL=Options.css.map */

@@ -1,0 +1,20 @@
+.video-container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.video-container .video-card .name {
+  margin: 1rem 2rem;
+}
+.video-container .video-card video {
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  width: 700px;
+  max-width: 750px;
+  min-width: 300px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}/*# sourceMappingURL=VideoPlayer.css.map */
