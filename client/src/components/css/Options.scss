@@ -46,3 +46,20 @@
     }
   }
 }
+
+@media screen and (max-width: 500px) {
+  .Options {
+    width: 100vw;
+    // overflow-x: hidden;
+    height: fit-content;
+    // background-color: greenyellow;
+
+    .form {
+      flex-direction: column;
+
+      input{
+        margin: 0.5rem 0
+      };
+    }
+  }
+}

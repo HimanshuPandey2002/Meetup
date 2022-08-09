@@ -17,4 +17,26 @@
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+}
+
+@media screen and (max-width: 500px) {
+  .video-container {
+    flex-direction: column;
+    height: 80vh;
+    justify-content: flex-start;
+  }
+  .video-container .video-card {
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: 1rem 0;
+  }
+  .video-container .video-card .name {
+    margin: 0.5rem 2rem;
+  }
+  .video-container .video-card video {
+    width: 100%;
+    border-radius: 5px;
+  }
 }/*# sourceMappingURL=VideoPlayer.css.map */

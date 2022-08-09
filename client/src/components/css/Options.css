@@ -40,4 +40,19 @@
 }
 .Options .form .id-sec .id {
   margin-right: 0.8rem;
+}
+
+@media screen and (max-width: 500px) {
+  .Options {
+    width: 100vw;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .Options .form {
+    flex-direction: column;
+  }
+  .Options .form input {
+    margin: 0.5rem 0;
+  }
 }/*# sourceMappingURL=Options.css.map */

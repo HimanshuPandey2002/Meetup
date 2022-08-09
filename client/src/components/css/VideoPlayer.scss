@@ -21,3 +21,26 @@
     }
   }
 }
+
+@media screen and (max-width: 500px) {
+  .video-container {
+    flex-direction: column;
+    height: 80vh;
+    justify-content: flex-start;
+
+    .video-card {
+      width: 100%;
+      height: fit-content;
+      margin: 1rem 0;
+
+      .name{
+        margin: 0.5rem 2rem;
+      }
+
+      video {
+        width: 100%;
+        border-radius: 5px;
+      }
+    }
+  }
+}
